@@ -50,24 +50,64 @@
 //     let row = "";
 
 //     for (let j = 1; j <= number; j++) {
-//         row += "*";
+//         row += j;
 //     }
 
 //     console.log(row);
 // }
 
 //-------- to print patterns 4 X 4 of ascending numbers by 1
-let number = 3;
-let n = 64;
+// let number = 3;
+// let n = 0;
 
-for (let i = 1; i <= number; i++) {
+// for (let i = 1; i <= number; i++) {
 
-    let row = "";
+//     let row = "";
 
-    for (let j = 1; j <= number; j++) {
-        n++
-        row += n;
-    }
+//     for (let j = 1; j <= number; j++) {
+//         n++
+//         row += n;
+//     }
 
-    console.log(row);
-}
+//     console.log(row);
+// }
+
+// // ---------print repeating alphabets
+// let n = 4;
+
+// for (let i = 1; i <= n; i++) {
+
+//     let number = 65;
+//     let row = "";
+
+//     for (let j = 1; j <= n; j++) {
+
+//         let letter = String.fromCharCode(number);
+//         number++;
+//         row += letter;
+
+//     }
+
+//     console.log(row);
+
+// }
+
+// --------------- for print differnt charcter in each row
+// let n = 4;
+// let number = 65;
+
+// for (let i = 1; i <= n; i++) {
+
+//     let row = "";
+
+//     for (let j = 1; j <= n; j++) {
+
+//         let letter = String.fromCharCode(number);
+//         number++;
+//         row += letter;
+
+//     }
+
+//     console.log(row);
+
+// }
