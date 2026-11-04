@@ -1,3 +1,27 @@
+let n = 4;
+let innerLoop = 1;
+
+for (let i = 1; i <= n; i++) {
+
+    let row = "";
+
+    for (let j = 1; j <= innerLoop; j++) {
+
+        row += "*";
+
+    }
+
+    innerLoop++;
+
+    console.log(row);
+
+}
+
+
+
+
+
+
 // ------------------ for find the sum of odd number
 
 // let number = 5;
@@ -111,3 +135,5 @@
 //     console.log(row);
 
 // }
+
+// ----------------- for right angle triangle loop pattern
