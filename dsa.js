@@ -1,27 +1,3 @@
-let n = 4;
-let innerLoop = 1;
-
-for (let i = 1; i <= n; i++) {
-
-    let row = "";
-
-    for (let j = 1; j <= innerLoop; j++) {
-
-        row += "*";
-
-    }
-
-    innerLoop++;
-
-    console.log(row);
-
-}
-
-
-
-
-
-
 // ------------------ for find the sum of odd number
 
 // let number = 5;
@@ -136,4 +112,65 @@ for (let i = 1; i <= n; i++) {
 
 // }
 
-// ----------------- for right angle triangle loop pattern
+// // ----------------- for right angle triangle loop pattern
+// let n = 4;
+// let innerLoop = 1;
+
+// for (let i = 1; i <= n; i++) {
+
+//     let row = "";
+
+//     for (let j = 1; j <= innerLoop; j++) {
+
+//         row += "*";
+
+//     }
+
+//     innerLoop++;
+
+//     console.log(row);
+
+// }
+
+// ---------------------- for right angle triangle loop pattern
+// let n = 4;
+// let innerLoop = 1;
+
+// for (let i = 1; i <= n; i++) {
+
+//     let row = "";
+
+//     for (let j = 1; j <= innerLoop; j++) {
+
+//         row += i;
+
+//     }
+
+//     innerLoop++;
+
+//     console.log(row);
+
+// }
+
+// ---------------------- for right angle triangle loop pattern alphabets
+let n = 5;
+let innerLoop = 1;
+let letternumber = 65;
+
+for (let i = 1; i <= n; i++) {
+
+    let row = "";
+
+    for (let j = 1; j <= innerLoop; j++) {
+
+        let letter = String.fromCharCode(letternumber);
+        row += letter;
+
+    }
+
+    letternumber++;
+    innerLoop++;
+
+    console.log(row);
+
+}
